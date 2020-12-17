@@ -3,6 +3,12 @@
 * {
     box-sizing: border-box;
   }
+
+  :root {
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+  }
+  
   
   body {
     background-color: #f9fafb;
@@ -53,9 +59,10 @@
   }
 
   .form-control.success input {
-    border-color: green;
+    border-color: var(--success-color);
   }
   
   .form-control.error input {
-    border-color:red;
+    border-color: var(--error-color);
   }
+  

@@ -51,4 +51,11 @@
     outline: 0;
     border-color: #777;
   }
+
+  .form-control.success input {
+    border-color: green;
+  }
   
+  .form-control.error input {
+    border-color:red;
+  }
